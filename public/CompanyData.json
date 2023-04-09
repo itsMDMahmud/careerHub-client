@@ -1,0 +1,148 @@
+[
+  {
+    "company1": {
+      "id": "IT001",
+      "company_image": "https://example.com/company1.png",
+      "company_name": "Tech Innovators",
+      "job_title": "Software Engineer",
+      "post_name": "Senior Software Engineer",
+      "location": "San Francisco, CA",
+      "job_description": "We are seeking a talented Senior Software Engineer to join our team and help us develop innovative software solutions for our clients.",
+      "job_responsibility": 
+        "Design and develop software applications, Write clean, scalable code using programming languages such as Java and Python, Collaborate with cross-functional teams to identify and prioritize software features, Test and debug software applications, Deploy software applications to production environments"
+      ,
+      "education_requirement": "Bachelor's degree in Computer Science or a related field",
+      "experience": "5+ years of experience in software engineering",
+      "salary_range": "$120,000 - $150,000 per year",
+      "phone": "555-1234",
+      "image": "https://example.com/software_engineer.png"
+    }
+  },
+  {
+    "company2": {
+      "id": "IT002",
+      "company_image": "https://example.com/company2.png",
+      "company_name": "Digital Dynamics",
+      "job_title": "Data Analyst",
+      "post_name": "Senior Data Analyst",
+      "location": "New York, NY",
+      "job_description": "We are seeking a talented Senior Data Analyst to join our team and help us analyze complex data sets to derive insights and inform business decisions.",
+      "job_responsibility":
+        "Collect, clean, and transform data from multiple sources, Develop and maintain dashboards and reports to communicate data insights to stakeholders, Identify trends and patterns in data to inform business strategy, Collaborate with cross-functional teams to develop data-driven solutions to business problems",
+      "education_requirement": "Bachelor's degree in Statistics, Mathematics, Computer Science or a related field",
+      "experience": "5+ years of experience in data analysis",
+      "salary_range": "$100,000 - $130,000 per year",
+      "phone": "555-5678",
+      "image": "https://example.com/data_analyst.png"
+    }
+  },
+  {
+    "company3": {
+      "id": "IT003",
+      "company_image": "https://example.com/company3.png",
+      "company_name": "NexaTech",
+      "job_title": "Cloud Engineer",
+      "post_name": "Senior Cloud Engineer",
+      "location": "Seattle, WA",
+      "job_description": "We are seeking a talented Senior Cloud Engineer to join our team and help us design and implement secure and scalable cloud solutions for our clients.",
+      "job_responsibility": 
+        "Design, deploy, and manage cloud-based infrastructure using AWS, Azure, or Google Cloud Platform , Develop and implement automation tools for deployment and monitoring of cloud services, Ensure cloud security and compliance with industry standards , Collaborate with cross-functional teams to develop cloud-based solutions to business problems"
+      ,
+      "education_requirement": "Bachelor's degree in Computer Science or a related field",
+      "experience": "5+ years of experience in cloud engineering",
+      "salary_range": "$130,000 - $160,000 per year",
+      "phone": "555-9012",
+      "image": "https://example.com/cloud_engineer.png"
+    }
+  },
+  {
+    "company4": {
+      "id": "IT004",
+      "company_image": "https://example.com/company4.png",
+      "company_name": "CodeCrafters",
+      "job_title": "Web Developer",
+      "post_name": "Senior Web Developer",
+      "location": "Austin, TX",
+      "job_description": "We are seeking a talented Senior Web Developer to join our team and help us develop responsive and user-friendly web applications for our clients.",
+      "job_responsibility":
+        "Develop and maintain web applications using HTML, CSS, and JavaScript, Collaborate with cross-functional teams to identify and prioritize web application features, Ensure web application accessibility and compliance with industry standards, Test and debug web applications, Deploy web applications to production environments",
+      "education_requirement": "Bachelor's degree in Computer Science or a related field",
+      "experience": "5+ years of experience in web development",
+      "salary_range": "$100,000 - $130,000 per year",
+      "phone": "555-3456",
+      "image": "https://example.com/web_developer.png"
+    }
+  },
+  {
+    "company5": {
+      "id": "IT005",
+      "company_image": "https://example.com/company5.png",
+      "company_name": "InnoTech",
+      "job_title": "Mobile App Developer",
+      "post_name": "Senior Mobile App Developer",
+      "location": "Los Angeles, CA",
+      "job_description": "We are seeking a talented Senior Mobile App Developer to join our team and help us develop innovative and user-friendly mobile applications for our clients.",
+      "job_responsibility": 
+        "Develop and maintain mobile applications for iOS and Android platforms, Collaborate with cross-functional teams to identify and prioritize mobile application features, Ensure mobile application performance and user experience, Test and debug mobile applications, Deploy mobile applications to app stores",
+      "education_requirement": "Bachelor's degree in Computer Science or a related field",
+      "experience": "5+ years of experience in mobile app development",
+      "salary_range": "$120,000 - $150,000 per year",
+      "phone": "555-7890",
+      "image": "https://example.com/mobile_app_developer.png"
+    }
+  },
+  {
+    "company6": {
+      "id": "IT006",
+      "company_image": "https://example.com/company6.png",
+      "company_name": "Data Wizards",
+      "job_title": "Data Scientist",
+      "post_name": "Senior Data Scientist",
+      "location": "Boston, MA",
+      "job_description": "We are seeking a talented Senior Data Scientist to join our team and help us develop predictive models and algorithms to solve complex business problems for our clients.",
+      "job_responsibility": "Collect, clean, and transform data from multiple sources, Develop and implement statistical and machine learning models to analyze data and derive insights, Identify patterns and trends in data to inform business strategy, Collaborate with cross-functional teams to develop data-driven solutions to business problems"
+      ,
+      "education_requirement": "Master's or PhD in Statistics, Mathematics, Computer Science or a related field",
+      "experience": "5+ years of experience in data science",
+      "salary_range": "$150,000 - $180,000 per year",
+      "phone": "555-2345",
+      "image": "https://example.com/data_scientist.png"
+    }
+  },
+  {
+    "company7": {
+      "id": "IT008",
+      "company_image": "https://example.com/company8.png",
+      "company_name": "CyberPioneers",
+      "job_title": "Cybersecurity Analyst",
+      "post_name": "Senior Cybersecurity Analyst",
+      "location": "Washington, D.C.",
+      "job_description": "We are seeking a talented Senior Cybersecurity Analyst to join our team and help us protect our clients' data and infrastructure from cyber threats.",
+      "job_responsibility": 
+        "Conduct vulnerability assessments and penetration testing, Identify and analyze security risks and threats, Develop and implement security policies and procedures, Respond to and investigate security incidents, Stay up-to-date with the latest cybersecurity trends and technologies",
+      "education_requirement": "Bachelor's degree in Computer Science or a related field",
+      "experience": "5+ years of experience in cybersecurity",
+      "salary_range": "$120,000 - $150,000 per year",
+      "phone": "555-6789",
+      "image": "https://example.com/cybersecurity_analyst.png"
+    }
+  },
+  {
+    "company8": {
+      "id": "IT009",
+      "company_image": "https://example.com/company9.png",
+      "company_name": "AI Innovations",
+      "job_title": "Machine Learning Engineer",
+      "post_name": "Senior Machine Learning Engineer",
+      "location": "San Francisco, CA",
+      "job_description": "We are seeking a talented Senior Machine Learning Engineer to join our team and help us develop and deploy cutting-edge machine learning models and algorithms.",
+      "job_responsibility": "Design and implement machine learning models and algorithms, Collaborate with cross-functional teams to identify and prioritize machine learning features, Ensure machine learning model performance and accuracy, Test and debug machine learning models, Deploy machine learning models to production environments"
+      ,
+      "education_requirement": "Master's or PhD in Computer Science or a related field",
+      "experience": "5+ years of experience in machine learning",
+      "salary_range": "$150,000 - $180,000 per year",
+      "phone": "555-4567",
+      "image": "https://example.com/machine_learning_engineer.png"
+    }
+  }
+]

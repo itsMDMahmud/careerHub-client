@@ -1,8 +1,11 @@
 import React from 'react';
 import './Home.css'
-import {Link} from 'react-router-dom'
+import {Link, useLoaderData} from 'react-router-dom'
 
 const Home = () => {
+
+    const companies = useLoaderData()
+    
     return (
         <>
             {/* first section  */}
@@ -17,7 +20,7 @@ const Home = () => {
                 <div> <img src="../../../public/corporateimg.png" alt="" /></div>
             </div>
 
-            {/* second section  */}
+            {/* job-catagory-list --------------------------  */}
 
             <div className='job-catagory-list'>
                 <h1>Job catagory list</h1>
@@ -45,6 +48,16 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Featured job ------------------------------  */}
+
+            <section className='featured-section'>
+                <div>
+                    <h1 className='featured-jobs'>Featured Job</h1>
+                    <p className='featued-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                    <h1> {companies.length} companies</h1>
+                </div>
+            </section>
         </>
     );
 };
