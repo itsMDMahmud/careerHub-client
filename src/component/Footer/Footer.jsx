@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div>
-            <h2>this is footer</h2>
+            <h5>@2023 CareerHub. All Rights Reserved</h5>
         </div>
     );
 };

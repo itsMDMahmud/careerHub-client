@@ -7,9 +7,31 @@
 }
 .main-heading{
     font-size: 70px;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 .upper-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.job-catagory-list{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.acme{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;    
+}
+.acme-single{
+    margin-top: 30px;
+    background-color: #9873ff13;
+    padding: 20px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    width: 240px;
+    height: 200px;
 }
