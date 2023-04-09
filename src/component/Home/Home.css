@@ -1,0 +1,15 @@
+.dream-job{
+    background-image: linear-gradient( to right, #E040FB, #00BCD4);
+	text-transform: uppercase;
+	display: inline-block;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;   
+}
+.main-heading{
+    font-size: 70px;
+    line-height: 1.5em;
+}
+.upper-section{
+    display: flex;
+    justify-content: space-between;
+}
