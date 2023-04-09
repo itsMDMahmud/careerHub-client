@@ -4,15 +4,15 @@ import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header>
-            <h2>Career Fair</h2>
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="statistics">Statics</Link>
-                <Link to="appliedjobs">Applied Jobs</Link>
-                <Link to="blog">Blog</Link>
+    <header className="header">
+            <h2>CareerFair</h2>
+            <nav className="head-nav">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="statistics">Statics</Link>
+                <Link className="nav-link" to="appliedjobs">Applied Jobs</Link>
+                <Link className="nav-link" to="blog">Blog</Link>
             </nav>
-            <Link to="appliedjobs"><button>Start Apply</button></Link>
+            <Link to="appliedjobs"><button className="main-btn">Start Apply</button></Link>
 
         </header>
   );
