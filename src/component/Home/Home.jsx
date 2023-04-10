@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import {Link, useLoaderData} from 'react-router-dom'
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
+// import JobCatagory from '../JobCatagory/JobCatagory';
 
 const Home = () => {
 
@@ -18,7 +19,7 @@ const Home = () => {
                     <Link to="appliedjobs"><button className="main-btn">Get Started</button></Link>
 
                 </div>
-                <div> <img src="../../../public/corporateimg.png" alt="" /></div>
+                <div> <img src="https://i.ibb.co/RhRB5gP/corporateimg.png" alt="" /></div>
             </div>
 
             {/* job-catagory-list --------------------------  */}
@@ -27,6 +28,7 @@ const Home = () => {
                 <h1>Job catagory list</h1>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='acme'>
+                    {/* <JobCatagory></JobCatagory> */}
                     <div className='acme-single'>
                         <div> <img src="../../../public/Icons/accounts 1.png" alt="image" /></div>
                         <h2>Account & Finance</h2>

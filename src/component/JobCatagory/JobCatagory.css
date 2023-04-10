@@ -1,0 +1,11 @@
+.acme-single{
+    margin-top: 30px;
+    background-color: #9873ff13;
+    padding: 20px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    width: 240px;
+    height: 200px;
+}
