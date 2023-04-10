@@ -30,22 +30,22 @@ const Home = () => {
                 <div className='acme'>
                     {/* <JobCatagory></JobCatagory> */}
                     <div className='acme-single'>
-                        <div> <img src="../../../public/Icons/accounts 1.png" alt="image" /></div>
+                        <div> <img src="https://i.ibb.co/4f537Y0/accounts-1.png" alt="image" /></div>
                         <h2>Account & Finance</h2>
                         <p>300+ Jobs Available</p>
                     </div>
                     <div className='acme-single'>
-                        <div> <img src="../../../public/Icons/business 1.png" alt="image" /></div>
+                        <div> <img src="https://i.ibb.co/fYJmt0M/business-1.png" alt="image" /></div>
                         <h2>Creative Design</h2>
                         <p>100+ Jobs Available</p>
                     </div>
                     <div className='acme-single'>
-                        <div> <img src="../../../public/Icons/social-media 1.png" alt="image" /></div>
+                        <div> <img src="https://i.ibb.co/44n6tz0/social-media-1.png" alt="image" /></div>
                         <h2>Marketing & Sales</h2>
                         <p>150+ Jobs Available</p>
                     </div>
                     <div className='acme-single'>
-                        <div> <img src="../../../public/Icons/chip 1.png" alt="image" /></div>
+                        <div> <img src="https://i.ibb.co/RgYcsR6/chip-1.png" alt="image" /></div>
                         <h2>Engineering Job</h2>
                         <p>220+ Jobs Available</p>
                     </div>

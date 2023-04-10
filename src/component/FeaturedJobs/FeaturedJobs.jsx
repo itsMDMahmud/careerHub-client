@@ -14,8 +14,8 @@ const FeaturedJobs = ({company}) => {
                     <button className='Rem-ft'>Remote</button>                
                     <button className='Rem-ft'>Fulltime</button> 
             </div>
-            <p className='job-card-p'><span><img src="../../../public/Icons/Frame-4.png" alt="" /></span>{location}</p>
-            <p className='job-card-p'><span><img src="../../../public/Icons/Frame.png" alt="" /></span>{salary_range}</p>
+            <p className='job-card-p'><span><img src="https://i.ibb.co/bFQXBW8/Frame-4.png" alt="" /></span>{location}</p>
+            <p className='job-card-p'><span><img src="https://i.ibb.co/8g2dNLV/Frame.png" alt="" /></span>{salary_range}</p>
             
             
             <Link to="job-details"><button className="main-btn">View Details</button></Link>
