@@ -111,7 +111,7 @@
   },
   {
     "company": {
-      "id": "IT008",
+      "id": "IT007",
       "company_image": "https://i.ibb.co/PM7Y37g/tesla-9-1.png",
       "company_name": "Tesla, Inc.",
       "job_title": "Cybersecurity Analyst",
@@ -129,7 +129,7 @@
   },
   {
     "company": {
-      "id": "IT009",
+      "id": "IT008",
       "company_image": "https://i.ibb.co/7gJWVdm/Career-Hub.png",
       "company_name": "AI Innovations.",
       "job_title": "Machine Learning Engineer",

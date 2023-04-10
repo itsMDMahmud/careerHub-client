@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css'
 import {Link, useLoaderData} from 'react-router-dom'
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
@@ -6,7 +6,18 @@ import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
 
-    const companies = useLoaderData()
+   const [companies, setCompanies] = useState ([]);
+   const [visible, setVisible] = useState(4);
+
+   const showMoreItems = () => {
+        setVisible((prevValue) => prevValue + 4);
+   }
+
+   useEffect(() => {
+    fetch('CompanyData.json')
+    .then((res) => res.json())
+    .then((data) => setCompanies(data));
+   }, [])
     
     return (
         <>
@@ -60,13 +71,13 @@ const Home = () => {
                     <p className='featued-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>                    
                     <div className='company-box'>
                         {
-                            companies.map(company => <FeaturedJobs
+                            companies.slice(0, visible).map(company => <FeaturedJobs
                             key={company.id}
                             company={company.company}
                             ></FeaturedJobs>)
                         }
                     </div>
-                    <div className='see-all-btn-div'><button className='main-btn see-all-btn'>See All</button></div>
+                    <div className='see-all-btn-div'><button onClick={showMoreItems} className='main-btn see-all-btn'>See All</button></div>
                 </div>
             </section>
         </>

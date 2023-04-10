@@ -3,8 +3,9 @@ import {Link, useLoaderData} from 'react-router-dom'
 import './FeaturedJobs.css'
 
 const FeaturedJobs = ({company}) => {
+    // const fourCompany = company.slice(0,4);
     const {company_image, post_name, company_name, location, salary_range, job_catagory} = company;
-    console.log(company);
+    // console.log(company);
     return (
         <div className='feature-single-card'>
             <img src={company_image} alt="image" />
