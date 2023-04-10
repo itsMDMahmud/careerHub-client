@@ -10,6 +10,7 @@
     line-height: 1.3em;
 }
 .upper-section{
+    padding: 50px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +40,7 @@
 }
 .featured-section{
     margin-top: 60px;
+    padding: 50px 150px;
 }
 .featured-section-heading{
     font-size: 30px;
@@ -59,4 +61,48 @@
 .see-all-btn-div{
     display: flex;
     margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+    .upper-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-heading{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    .upper-section-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-img{
+        max-width: 90vw;
+    }
+    .acme{
+        display: flex;
+        flex-direction: column;
+    }
+    .company-box{
+        margin-top: 40px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .featured-section{
+        margin-top: 60px;
+        padding: 0;
+    }
+    .main-heading{
+        font-size: 50px;
+    }
+    .upper-section{
+        padding: 0;
+    }
 }

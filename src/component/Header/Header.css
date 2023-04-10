@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 50px 150px;
 }
 .nav-link{
     margin: 15px;
@@ -23,4 +24,17 @@
     /* background-image: linear-gradient( to right, #E040FB, #00BCD4); */
 	/* -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; */
+  }
+
+  @media (max-width: 576px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+    }
+    .header-btn{
+        margin-top: 30px;
+        width: 200px;
+    }
   }

@@ -13,13 +13,13 @@ const Home = () => {
             {/* first section  */}
 
             <div className='upper-section'>
-                <div>
-                    <h1 className='main-heading'>One step <br /> closer to your <br /> <span className='dream-job'>dream job</span></h1>
-                    <p>Explore thousands of job opportunities with all the information <br />  you need. Its your future. Come find it. Manage all your job  <br /> application from start to finish.</p>
+                <div className='upper-section-left'>
+                    <h1 className='main-heading'>One step closer to your <span className='dream-job'>dream job</span></h1>
+                    <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <Link to="appliedjobs"><button className="main-btn">Get Started</button></Link>
 
                 </div>
-                <div> <img src="https://i.ibb.co/RhRB5gP/corporateimg.png" alt="" /></div>
+                <div> <img className='main-img' src="https://i.ibb.co/RhRB5gP/corporateimg.png" alt="" /></div>
             </div>
 
             {/* job-catagory-list --------------------------  */}

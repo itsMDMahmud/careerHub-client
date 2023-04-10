@@ -12,7 +12,7 @@ const Header = () => {
                 <NavLink className= {({isActive}) => (isActive ? 'active' : 'nav-link')} to="appliedjobs">AppliedJobs</NavLink>
                 <NavLink className= {({isActive}) => (isActive ? 'active' : 'nav-link')} to="blog">Blog</NavLink>
             </nav>
-            <Link to="appliedjobs"><button className="main-btn">Start Apply</button></Link>
+            <Link to="appliedjobs"><button className="main-btn header-btn">Start Apply</button></Link>
 
         </header>
   );
