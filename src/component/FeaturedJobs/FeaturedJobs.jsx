@@ -4,7 +4,8 @@ import './FeaturedJobs.css'
 
 const FeaturedJobs = ({company}) => {
     // const fourCompany = company.slice(0,4);
-    const {company_image, post_name, company_name, location, salary_range, job_catagory} = company;
+    const {company_image, post_name, company_name, location, salary_range,id, job_catagory} = company;
+    console.log(id);
     // console.log(company);
     return (
         <div className='feature-single-card'>
@@ -19,7 +20,7 @@ const FeaturedJobs = ({company}) => {
             <p className='job-card-p'><span><img src="https://i.ibb.co/8g2dNLV/Frame.png" alt="" /></span>{salary_range}</p>
             
             
-            <Link to="job-details"><button className="main-btn">View Details</button></Link>
+            <Link to={`job-details/${id}`}><button className="main-btn">View Details</button></Link>
         </div>
     );
 };

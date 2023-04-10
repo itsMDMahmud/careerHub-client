@@ -1,0 +1,25 @@
+.job-details{
+    padding: 50px 150px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+}
+.job-details-right{
+    background: linear-gradient( 120deg, #00bbd43a, #df40fb38) ;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+/* .compo-heading{
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 2em;
+}*/
+
+.job-d-compo{
+    line-height: 1.5em;
+}
+.job-d-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
