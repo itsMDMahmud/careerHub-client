@@ -3,7 +3,7 @@
     "company": {
       "id": "IT001",
       "company_image": "../public/All Images/sony-unlocks-surprising-advertising-wins-with-segmentation-png-logo-6.png",
-      "company_name": "Tech Innovators",
+      "company_name": "Sony Group Corporation",
       "job_title": "Software Engineer",
       "post_name": "Senior Software Engineer",
       "location": "San Francisco, CA",
@@ -22,7 +22,7 @@
     "company": {
       "id": "IT002",
       "company_image": "../public/All Images/netflix-4 1.png",
-      "company_name": "Digital Dynamics",
+      "company_name": "Netflix, Inc.",
       "job_title": "Data Analyst",
       "post_name": "Senior Data Analyst",
       "location": "New York, NY",
@@ -40,7 +40,7 @@
     "company": {
       "id": "IT003",
       "company_image": "../public/All Images/Facebook-Logo.png",
-      "company_name": "NexaTech",
+      "company_name": "Meta Platforms, Inc.",
       "job_title": "Cloud Engineer",
       "post_name": "Senior Cloud Engineer",
       "location": "Seattle, WA",
@@ -59,7 +59,7 @@
     "company": {
       "id": "IT004",
       "company_image": "../public/All Images/walmart-logo-transparent.png",
-      "company_name": "CodeCrafters",
+      "company_name": "Wal-Mart Stores, Inc.",
       "job_title": "Web Developer",
       "post_name": "Senior Web Developer",
       "location": "Austin, TX",
@@ -77,7 +77,7 @@
     "company": {
       "id": "IT005",
       "company_image": "../public/All Images/google-1-1 1.png",
-      "company_name": "InnoTech",
+      "company_name": "Google LLC",
       "job_title": "Mobile App Developer",
       "post_name": "Senior Mobile App Developer",
       "location": "Los Angeles, CA",
@@ -95,7 +95,7 @@
     "company": {
       "id": "IT006",
       "company_image": "../public/All Images/Group 10021.png",
-      "company_name": "Data Wizards",
+      "company_name": "Airbnb, Inc.",
       "job_title": "Data Scientist",
       "post_name": "Senior Data Scientist",
       "location": "Boston, MA",
@@ -113,7 +113,7 @@
     "company": {
       "id": "IT008",
       "company_image": "../public/All Images/tesla-9 1.png",
-      "company_name": "CyberPioneers",
+      "company_name": "Tesla, Inc.",
       "job_title": "Cybersecurity Analyst",
       "post_name": "Senior Cybersecurity Analyst",
       "location": "Washington, D.C.",

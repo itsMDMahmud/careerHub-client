@@ -65,6 +65,7 @@ const Home = () => {
                             ></FeaturedJobs>)
                         }
                     </div>
+                    <div className='see-all-btn-div'><button className='main-btn see-all-btn'>See All</button></div>
                 </div>
             </section>
         </>

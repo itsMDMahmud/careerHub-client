@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className="header">
-            <h2>CareerFair</h2>
+    <header className="header">            
+            <Link className="career-header"  to="/"><h1 className="career-header" >CareerFair</h1></Link>
             <nav className="head-nav">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="statistics">Statics</Link>

@@ -8,3 +8,10 @@
     text-decoration: none;
     font-size: large;
 }
+.career-header{
+    text-decoration: none;
+    background-image: linear-gradient( to right, #E040FB, #00BCD4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
