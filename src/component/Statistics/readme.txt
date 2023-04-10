@@ -1,7 +1,15 @@
 import React from "react";
 import "./Statistics.css";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-
+import {
+  BarChart,
+  Bar,
+  Cell,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Line,
+  LineChart,
+} from "recharts";
 
 const Statistics = () => {
   const marksArray = [
@@ -48,18 +56,11 @@ const Statistics = () => {
   ];
 
   return (
-    <>
-      <div className="chart">
-        <h3>Marks Chart</h3>
-        <LineChart width={700} height={300} data={marksArray}>
-          <Line stroke="teal" dataKey="mark"></Line>
-          <XAxis dataKey="name" />
-          <YAxis></YAxis>
-          <Tooltip></Tooltip>
-          <CartesianGrid strokeDasharray="3 3" />
-        </LineChart>
-      </div>
-    </>
+    <div>
+      <LineChart width={500} height={300} data={marksArray}>
+        <Line dataKey="mark"></Line>
+      </LineChart>
+    </div>
   );
 };
 
