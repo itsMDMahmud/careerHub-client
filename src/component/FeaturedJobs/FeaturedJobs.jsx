@@ -1,0 +1,26 @@
+import React from 'react';
+import {Link, useLoaderData} from 'react-router-dom'
+import './FeaturedJobs.css'
+
+const FeaturedJobs = ({company}) => {
+    const {company_image, post_name, company_name, location, salary_range, job_catagory} = company;
+    console.log(company);
+    return (
+        <div className='feature-single-card'>
+            <img src={company_image} alt="image" />
+            <h3>{post_name}</h3>
+            <h4>{company_name}</h4>
+            <div className='gradient-main-div'>                
+                    <button className='Rem-ft'>Remote</button>                
+                    <button className='Rem-ft'>Fulltime</button> 
+            </div>
+            <p className='job-card-p'><span><img src="../../../public/Icons/Frame-4.png" alt="" /></span>{location}</p>
+            <p className='job-card-p'><span><img src="../../../public/Icons/Frame.png" alt="" /></span>{salary_range}</p>
+            
+            
+            <Link to="job-details"><button className="main-btn">View Details</button></Link>
+        </div>
+    );
+};
+
+export default FeaturedJobs;

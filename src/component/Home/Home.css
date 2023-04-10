@@ -40,10 +40,14 @@
 .featured-section{
     margin-top: 50px;
 }
-.featured-jobs{
+.featured-section-heading{
     font-size: 30px;
     text-align: center;
 }
 .featued-p{
     text-align: center;
+}
+.company-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

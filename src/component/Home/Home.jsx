@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
 import {Link, useLoaderData} from 'react-router-dom'
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const Home = () => {
 
@@ -53,9 +54,17 @@ const Home = () => {
 
             <section className='featured-section'>
                 <div>
-                    <h1 className='featured-jobs'>Featured Job</h1>
+                    <h1 className='featured-section-heading'>Featured Job</h1>
                     <p className='featued-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                     <h1> {companies.length} companies</h1>
+                    <div className='company-box'>
+                        {
+                            companies.map(company => <FeaturedJobs
+                            key={company.id}
+                            company={company.company}
+                            ></FeaturedJobs>)
+                        }
+                    </div>
                 </div>
             </section>
         </>

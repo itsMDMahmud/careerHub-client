@@ -1,8 +1,8 @@
 [
   {
-    "company1": {
+    "company": {
       "id": "IT001",
-      "company_image": "https://example.com/company1.png",
+      "company_image": "../public/All Images/sony-unlocks-surprising-advertising-wins-with-segmentation-png-logo-6.png",
       "company_name": "Tech Innovators",
       "job_title": "Software Engineer",
       "post_name": "Senior Software Engineer",
@@ -19,9 +19,9 @@
     }
   },
   {
-    "company2": {
+    "company": {
       "id": "IT002",
-      "company_image": "https://example.com/company2.png",
+      "company_image": "../public/All Images/netflix-4 1.png",
       "company_name": "Digital Dynamics",
       "job_title": "Data Analyst",
       "post_name": "Senior Data Analyst",
@@ -37,9 +37,9 @@
     }
   },
   {
-    "company3": {
+    "company": {
       "id": "IT003",
-      "company_image": "https://example.com/company3.png",
+      "company_image": "../public/All Images/Facebook-Logo.png",
       "company_name": "NexaTech",
       "job_title": "Cloud Engineer",
       "post_name": "Senior Cloud Engineer",
@@ -56,9 +56,9 @@
     }
   },
   {
-    "company4": {
+    "company": {
       "id": "IT004",
-      "company_image": "https://example.com/company4.png",
+      "company_image": "../public/All Images/walmart-logo-transparent.png",
       "company_name": "CodeCrafters",
       "job_title": "Web Developer",
       "post_name": "Senior Web Developer",
@@ -74,9 +74,9 @@
     }
   },
   {
-    "company5": {
+    "company": {
       "id": "IT005",
-      "company_image": "https://example.com/company5.png",
+      "company_image": "../public/All Images/google-1-1 1.png",
       "company_name": "InnoTech",
       "job_title": "Mobile App Developer",
       "post_name": "Senior Mobile App Developer",
@@ -92,9 +92,9 @@
     }
   },
   {
-    "company6": {
+    "company": {
       "id": "IT006",
-      "company_image": "https://example.com/company6.png",
+      "company_image": "../public/All Images/Group 10021.png",
       "company_name": "Data Wizards",
       "job_title": "Data Scientist",
       "post_name": "Senior Data Scientist",
@@ -110,9 +110,9 @@
     }
   },
   {
-    "company7": {
+    "company": {
       "id": "IT008",
-      "company_image": "https://example.com/company8.png",
+      "company_image": "../public/All Images/tesla-9 1.png",
       "company_name": "CyberPioneers",
       "job_title": "Cybersecurity Analyst",
       "post_name": "Senior Cybersecurity Analyst",
@@ -128,9 +128,9 @@
     }
   },
   {
-    "company8": {
+    "company": {
       "id": "IT009",
-      "company_image": "https://example.com/company9.png",
+      "company_image": "../public/All Images/CareerHub.png",
       "company_name": "AI Innovations",
       "job_title": "Machine Learning Engineer",
       "post_name": "Senior Machine Learning Engineer",
