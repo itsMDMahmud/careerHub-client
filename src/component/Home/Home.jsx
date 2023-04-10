@@ -55,8 +55,7 @@ const Home = () => {
             <section className='featured-section'>
                 <div>
                     <h1 className='featured-section-heading'>Featured Job</h1>
-                    <p className='featued-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <h1> {companies.length} companies</h1>
+                    <p className='featued-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>                    
                     <div className='company-box'>
                         {
                             companies.map(company => <FeaturedJobs

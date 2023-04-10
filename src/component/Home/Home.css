@@ -38,7 +38,7 @@
     height: 200px;
 }
 .featured-section{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .featured-section-heading{
     font-size: 30px;
@@ -48,6 +48,7 @@
     text-align: center;
 }
 .company-box{
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
