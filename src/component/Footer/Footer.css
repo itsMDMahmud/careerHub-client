@@ -18,25 +18,5 @@
     max-width: 100px;
 }
 .footer p{
-    margin: 8px;
-}
-.footer h3{
-    margin-left: 8px;
-}
-
-@media (max-width: 576px) {
-    .footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px 30px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .footer-common{
-        display: flex;
-        flex-direction: column;
-        text-align: center;        
-    }
+    margin: 10px 0;
 }

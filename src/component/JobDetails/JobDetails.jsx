@@ -28,6 +28,7 @@ const JobDetails = () => {
     <div className="job-details">
       {/* <h2>{companyData?.company?.company_name}</h2> */}
       <div className="job-details-left">
+        <img src={companyData?.company?.company_image} alt="" />
         <p className="job-d-compo"><h3 className="job-description compo-heading">Job Description: </h3>{companyData?.company?.job_description}</p>
         <p className="job-d-compo"><h3 className="job-description compo-heading">Job Responsibility: </h3>{companyData?.company?.job_responsibility}</p>
         <p className="job-d-compo"><h3 className="job-description compo-heading">Educational Requirement: </h3>{companyData?.company?.education_requirement}</p>
@@ -60,7 +61,7 @@ const JobDetails = () => {
             <div className="job-d-div">
               <span><img src="https://i.ibb.co/VWQdgn1/Frame-3.png" alt="" /></span>
               <span><h4>Email: </h4></span>
-              <p>info@gmail.com</p>
+              <p>{companyData?.company?.email}</p>
             </div>
             <div className="job-d-div">
               <span><img src="https://i.ibb.co/bFQXBW8/Frame-4.png" alt="" /></span>

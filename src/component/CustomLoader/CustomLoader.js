@@ -1,24 +1,22 @@
-import { getShoppingCart } from "../Utilities/fakedb"
-
+import { getShoppingCart } from "../Utilities/fakedb";
 
 
 const customLoader = async () => {
-    const loaderData = await fetch("/CompanyData.json")
-    const data = await loaderData.company.json()
-    // return data
-    
+    const loadData = await fetch("/CompanyData.json")
+    const data = await loadData.json()
     let savedCart = []
 
     const storedCart = getShoppingCart()
-    if (storedCart) {
-        for(const id in storedCart) {
-            const exixtingJob = data.find(job => job.id == id)
-            if (exixtingJob) {
-                savedCart.push(exixtingJob)
+    if(storedCart){
+        for (const id in storedCart) {
+            const existingJob = data.find(job => job.company.id ==id)
+            if(existingJob){
+                savedCart.push(existingJob)
             }
         }
     }
 
     return savedCart
-}
+};
+
 export {customLoader}

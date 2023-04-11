@@ -4,6 +4,10 @@
     grid-template-columns: 10fr 6fr;
     gap: 20px;
 }
+.job-details-left img{
+    display: flex;
+    margin: 0 auto;
+}
 .job-details-right{
     /* background: linear-gradient( 120deg, #00bbd43a, #df40fb38) ;
     border-radius: 10px;

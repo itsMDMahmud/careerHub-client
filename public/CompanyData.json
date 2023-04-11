@@ -15,6 +15,7 @@
       "experience": "5+ years of experience in software engineering",
       "salary_range": "$120,000 - $150,000 per year",
       "phone": "555-1234",
+      "email": "info@sony.com",
       "image": "https://example.com/software_engineer.png"
     }
   },
@@ -33,6 +34,7 @@
       "experience": "5+ years of experience in data analysis",
       "salary_range": "$100,000 - $130,000 per year",
       "phone": "555-5678",
+      "email": "info@netflix.com",
       "image": "https://example.com/data_analyst.png"
     }
   },
@@ -52,6 +54,7 @@
       "experience": "5+ years of experience in cloud engineering",
       "salary_range": "$130,000 - $160,000 per year",
       "phone": "555-9012",
+      "email": "info@meta.com",
       "image": "https://example.com/cloud_engineer.png"
     }
   },
@@ -70,6 +73,7 @@
       "experience": "5+ years of experience in web development",
       "salary_range": "$100,000 - $130,000 per year",
       "phone": "555-3456",
+      "email": "info@wal-mart.com",
       "image": "https://example.com/web_developer.png"
     }
   },
@@ -88,6 +92,7 @@
       "experience": "5+ years of experience in mobile app development",
       "salary_range": "$120,000 - $150,000 per year",
       "phone": "555-7890",
+      "email": "info@google.com",
       "image": "https://example.com/mobile_app_developer.png"
     }
   },
@@ -106,12 +111,13 @@
       "experience": "5+ years of experience in data science",
       "salary_range": "$150,000 - $180,000 per year",
       "phone": "555-2345",
+      "email": "info@airbnb.com",
       "image": "https://example.com/data_scientist.png"
     }
   },
   {
     "company": {
-      "id": "IT008",
+      "id": "IT007",
       "company_image": "https://i.ibb.co/PM7Y37g/tesla-9-1.png",
       "company_name": "Tesla, Inc.",
       "job_title": "Cybersecurity Analyst",
@@ -124,12 +130,13 @@
       "experience": "5+ years of experience in cybersecurity",
       "salary_range": "$120,000 - $150,000 per year",
       "phone": "555-6789",
+      "email": "info@tesla.com",
       "image": "https://example.com/cybersecurity_analyst.png"
     }
   },
   {
     "company": {
-      "id": "IT009",
+      "id": "IT008",
       "company_image": "https://i.ibb.co/7gJWVdm/Career-Hub.png",
       "company_name": "AI Innovations.",
       "job_title": "Machine Learning Engineer",
@@ -142,6 +149,7 @@
       "experience": "5+ years of experience in machine learning",
       "salary_range": "$150,000 - $180,000 per year",
       "phone": "555-4567",
+      "email": "info@ai-innovation.com",
       "image": "https://example.com/machine_learning_engineer.png"
     }
   }

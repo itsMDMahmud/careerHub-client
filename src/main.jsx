@@ -14,13 +14,14 @@ import Blog from './component/Blog/Blog';
 import JobDetails from './component/JobDetails/JobDetails';
 import ErrorPage from './component/ErrorPage/ErrorPage';
 import JobCatagory from './component/JobCatagory/JobCatagory';
-import { customLoader } from './component/customLoader/customLoader';
+import { customLoader } from './component/CustomLoader/CustomLoader';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    // errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -37,9 +38,9 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>
       },
       {
-        path: "/appliedjobs",
+        path: "appliedjobs",
         element: <AppliedJobs></AppliedJobs>,
-        loader: customLoader,
+        loader: customLoader
       },
       {
         path: "blog",

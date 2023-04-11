@@ -19,10 +19,7 @@ const Home = () => {
     .then((data) => setCompanies(data));
    }, []);
 
-//    const [jobCart, setJobCart] = useState([]) ;
-   
 
-//    const CompanyJobs = createContext
     
     return (
         <>
@@ -77,7 +74,7 @@ const Home = () => {
                     <div className='company-box'>
                         {
                             companies.slice(0, visible).map(company => <FeaturedJobs
-                            key={company.id}
+                            key={company.company.id}
                             company={company.company}
                             ></FeaturedJobs>)
                         }
