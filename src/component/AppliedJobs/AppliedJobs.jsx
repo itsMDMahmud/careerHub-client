@@ -48,5 +48,3 @@ const AppliedJobs = () => {
 };
 
 export default AppliedJobs;
-//location
-//salary_range
