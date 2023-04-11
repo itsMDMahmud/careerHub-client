@@ -3,9 +3,7 @@
   /* padding: 50px 150px; */
   
 }
-*{
-  margin: 0;
-}
+
 .main-btn{
   height: 40px;
   padding: 0 25px;
@@ -16,7 +14,4 @@
   font-size: 20px;
   font-size: large;
   cursor: pointer;
-}
-p{
-    margin: 8px 0;
 }
