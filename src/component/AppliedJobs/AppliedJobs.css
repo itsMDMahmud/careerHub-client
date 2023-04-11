@@ -4,6 +4,13 @@
 .applied-job p{
     margin: 8px 0;
 }
+.job-left-side{
+    display: flex;
+    align-items: center;
+}
+.job-left-img{
+    padding: 20px;
+}
 .job-box{
     margin-top: 30px;
     padding: 30px;
@@ -12,4 +19,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+@media (max-width: 576px) {
+    .job-box, .job-left-side, .job-left-ess-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .applied-job{
+        padding: 20px ;
+    }
 }

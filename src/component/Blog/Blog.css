@@ -1,3 +1,9 @@
 .blog-div{
     padding: 100px;
 }
+@media (max-width: 576px) {
+    .blog-div{
+        padding: 20px 30px;
+        text-align: justify;
+    }
+}

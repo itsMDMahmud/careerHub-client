@@ -38,3 +38,11 @@
         width: 200px;
     }
   }
+
+  @media (max-width: 576px) {
+    
+    .nav-link{
+        margin: 10px;
+    }
+    
+  }

@@ -20,3 +20,16 @@
 .footer p{
     margin: 10px 0;
 }
+
+@media (max-width: 576px) {
+    .footer{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;        
+    }
+    .footer-common{
+        display: flex;
+        align-items: center;
+    }
+}
