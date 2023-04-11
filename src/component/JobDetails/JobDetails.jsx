@@ -30,6 +30,7 @@ const JobDetails = () => {
       {/* right side --------- */}
 
       <div className="job-details-right">
+            <div className="job-details-right-main">
             <h3>Job Details</h3>
             <hr />            
             <div className="job-d-div">
@@ -59,6 +60,8 @@ const JobDetails = () => {
               <span><h4>Address: </h4></span>
               <p>{companyData?.company?.location}</p>
             </div>
+            </div>
+            <button className="job-apply-now">Apply Now</button>
       </div>      
     </div>
   );
