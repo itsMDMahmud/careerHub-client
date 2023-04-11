@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import './Home.css'
 import {Link, useLoaderData} from 'react-router-dom'
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
@@ -17,7 +17,12 @@ const Home = () => {
     fetch('CompanyData.json')
     .then((res) => res.json())
     .then((data) => setCompanies(data));
-   }, [])
+   }, []);
+
+//    const [jobCart, setJobCart] = useState([]) ;
+   
+
+//    const CompanyJobs = createContext
     
     return (
         <>

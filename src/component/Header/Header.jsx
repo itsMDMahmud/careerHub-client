@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom'
 const Header = () => {
   return (
     <header className="header">            
-            <Link className="career-header" to="/"><h1 className="career-header" >CareerFair</h1></Link>
+            <Link className="career-header" to="/"><h1 className="career-header" >CareerZone</h1></Link>
             <nav className="head-nav">
                 <NavLink className= {({isActive}) => (isActive ? 'active' : 'nav-link')} to="/">Home</NavLink>                
                 <NavLink className= {({isActive}) => (isActive ? 'active' : 'nav-link')} to="appliedjobs">AppliedJobs</NavLink>

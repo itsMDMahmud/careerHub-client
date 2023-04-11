@@ -29,7 +29,7 @@
 }
 .acme-single{
     margin-top: 30px;
-    background-color: #9873ff13;
+    background: linear-gradient( 120deg, #00bbd400, rgba(0, 128, 128, 0.1)) ;
     padding: 20px 0;
     align-items: center;
     flex-direction: column;
@@ -37,6 +37,7 @@
     display: flex;
     width: 240px;
     height: 200px;
+    border-radius: 15px;
 }
 .featured-section{
     margin-top: 60px;

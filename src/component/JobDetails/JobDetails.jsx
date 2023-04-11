@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./JobDetails.css";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { addToDb } from "../Utilities/fakedb";
 
 const JobDetails = () => {
   const { id } = useParams();
-  console.log(id);
+  // console.log(id);
   const [companyDetails, setCompanyDetails] = useState([]);
   useEffect(() => {
     fetch("/CompanyData.json")
@@ -16,7 +17,13 @@ const JobDetails = () => {
       });
   }, []);
   const companyData = companyDetails.find((job) => job.company.id == id);
-  console.log(companyData);
+  // console.log(companyData);
+
+  const handleAddToDb = (id) => {
+    console.log(id);
+    addToDb(id);
+  }
+  
   return (
     <div className="job-details">
       {/* <h2>{companyData?.company?.company_name}</h2> */}
@@ -61,7 +68,8 @@ const JobDetails = () => {
               <p>{companyData?.company?.location}</p>
             </div>
             </div>
-            <button className="job-apply-now">Apply Now</button>
+            
+            <button onClick={()=>handleAddToDb(companyData?.company?.id)} className="job-apply-now">Apply Now</button>
       </div>      
     </div>
   );

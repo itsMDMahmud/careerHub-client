@@ -5,7 +5,7 @@ import './FeaturedJobs.css'
 const FeaturedJobs = ({company}) => {
     // const fourCompany = company.slice(0,4);
     const {company_image, post_name, company_name, location, salary_range,id, job_catagory} = company;
-    console.log(id);
+    // console.log(id);
     // console.log(company);
     return (
         <div className='feature-single-card'>
