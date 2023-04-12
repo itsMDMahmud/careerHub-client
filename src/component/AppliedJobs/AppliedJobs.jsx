@@ -20,6 +20,7 @@ const AppliedJobs = () => {
     //     localStorage.setItem('job-details', JSON.stringify(searchObject));
     //     console.log(id);
     // }
+    
     console.log(applieds);
     return (
         <>
@@ -28,23 +29,23 @@ const AppliedJobs = () => {
             <div className='applied-job'>
             {/* <h2>This is applied jobs</h2> */}
             {
-                applieds.map(job=> 
+                applieds.map(job=>                     
                 <div className='job-box'>
                     <div className='job-left-side'>
-                        <div className='job-left-img'><img src={job.company.company_image} alt="" /></div>
-                        <div className='job-left-ess-div'>
-                            <h2>{job.company.job_title}</h2>
-                            <p>{job.company.company_name}</p>
+                        <div className='job-left-img'><img src={job?.company?.company_image} alt="" /></div>
+                        <div className='job-left-ess-div'>                            
+                            <h2>{job?.company?.job_title}</h2>
+                            <p>{job?.company?.company_name}</p>
                             <div>
                                 <button className='Rem-ft'>Remote</button>
                                 <button className='Rem-ft'>Full Time</button>
                             </div>
-                            <p className='job-card-p'><span><img src="https://i.ibb.co/bFQXBW8/Frame-4.png" alt="" /></span>{job.company.location}</p>
-                            <p className='job-card-p'><span><img src="https://i.ibb.co/8g2dNLV/Frame.png" alt="" /></span>{job.company.salary_range}</p>
+                            <p className='job-card-p'><span><img src="https://i.ibb.co/bFQXBW8/Frame-4.png" alt="" /></span>{job?.company?.location}</p>
+                            <p className='job-card-p'><span><img src="https://i.ibb.co/8g2dNLV/Frame.png" alt="" /></span>{job?.company?.salary_range}</p>
                         </div>
                     </div>
                     <button className='main-btn'>View Details</button>  
-                                  
+                    
                 </div>
                 )
             }
