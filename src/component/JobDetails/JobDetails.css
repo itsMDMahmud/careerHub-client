@@ -45,3 +45,14 @@
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 576px) {
+    .job-details{
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .job-details-left p{
+        text-align: justify;
+    }
+}
