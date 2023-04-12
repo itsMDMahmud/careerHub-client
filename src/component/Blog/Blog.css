@@ -1,5 +1,6 @@
 .blog-div{
-    padding: 100px;
+    padding: 100px 150px;    
+    text-align: justify;
 }
 @media (max-width: 576px) {
     .blog-div{

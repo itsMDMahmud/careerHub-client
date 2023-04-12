@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./JobDetails.css";
 import { Link, useParams } from "react-router-dom";
 import { addToDb } from "../Utilities/fakedb";
+import HeaderDesign from '../HeaderDesign/HeaderDesign';
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -25,7 +26,10 @@ const JobDetails = () => {
   }
   
   return (
-    <div className="job-details">
+    <>
+      <div className='header-design-div'><HeaderDesign></HeaderDesign></div>
+      <div className="common-headline-div"><h1 className="blog-heading">Job Details</h1></div>
+      <div className="job-details">
       {/* <h2>{companyData?.company?.company_name}</h2> */}
       <div className="job-details-left">
         <img src={companyData?.company?.company_image} alt="" />
@@ -73,6 +77,7 @@ const JobDetails = () => {
             <button onClick={()=>handleAddToDb(companyData?.company?.id)} className="job-apply-now">Apply Now</button>
       </div>      
     </div>
+    </>
   );
 };
 

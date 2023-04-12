@@ -1,9 +1,13 @@
 import React from "react";
 import "./Blog.css";
+import HeaderDesign from '../HeaderDesign/HeaderDesign';
 
 const Blog = () => {
   return (
-    <div className="blog-div">
+    <>
+      <div className='header-design-div'><HeaderDesign></HeaderDesign></div>
+      <div className="common-headline-div"><h1 className="blog-heading">Blog</h1></div>
+      <div className="blog-div">
       <h2>when should we use Context-API?</h2>
       <p>
         The React Context API uses a Provider and Consumer pattern to share data
@@ -67,6 +71,7 @@ const Blog = () => {
         unnecessary re-renders caused by props that haven't actually changed.
       </p>
     </div>
+    </>
   );
 };
 

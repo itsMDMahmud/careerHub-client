@@ -2,6 +2,7 @@ import React from 'react';
 // , { useState }
 import './AppliedJobs.css'
 import { useLoaderData } from 'react-router-dom';
+import HeaderDesign from '../HeaderDesign/HeaderDesign';
 
 const AppliedJobs = () => {
     const applieds = useLoaderData();
@@ -21,7 +22,10 @@ const AppliedJobs = () => {
     // }
     console.log(applieds);
     return (
-        <div className='applied-job'>
+        <>
+            <div className='header-design-div'><HeaderDesign></HeaderDesign></div>
+            <div className="common-headline-div"><h1 className="blog-heading">Applied Jobs</h1></div>
+            <div className='applied-job'>
             {/* <h2>This is applied jobs</h2> */}
             {
                 applieds.map(job=> 
@@ -45,6 +49,7 @@ const AppliedJobs = () => {
                 )
             }
         </div>
+        </>
     );
 };
 

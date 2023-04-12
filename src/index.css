@@ -3,15 +3,43 @@
   /* padding: 50px 150px; */
   
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .main-btn{
   height: 40px;
   padding: 0 25px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: none;
   background: linear-gradient( 120deg, #E040FB, #00BCD4) ;
   color: white;
   font-size: 20px;
   font-size: large;
   cursor: pointer;
+}
+.header-design-div{
+  width: 100vw;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.common-headline-div{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  margin: 15px 0;
+  line-height: normal;
+}
+h3{
+  margin: 10px 0;
+}
+h4{
+  margin: 10px 0;
 }

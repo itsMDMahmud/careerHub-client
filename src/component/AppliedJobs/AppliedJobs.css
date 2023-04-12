@@ -1,9 +1,7 @@
 .applied-job{
     padding: 50px 150px;
 }
-.applied-job p{
-    margin: 8px 0;
-}
+
 .job-left-side{
     display: flex;
     align-items: center;

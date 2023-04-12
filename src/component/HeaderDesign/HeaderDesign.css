@@ -1,0 +1,26 @@
+.headerDesign{
+    background: linear-gradient( 150deg, #00bbd40c, #df40fb1e) ;
+    height: 250px;
+    position: relative;
+    /* max-width: 95vw; */
+}
+.imgone{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 80%;
+}
+.imgtwo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 50%;
+}
+@media (max-width: 576px) {
+    .imgone{
+        width: 50%;
+    }
+    .imgtwo{
+        width: 50%;
+    }
+}
