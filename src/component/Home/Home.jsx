@@ -2,15 +2,17 @@ import React, { createContext, useEffect, useState } from 'react';
 import './Home.css'
 import {Link, useLoaderData} from 'react-router-dom'
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
-// import JobCatagory from '../JobCatagory/JobCatagory';
+import JobCatagory from '../JobCatagory/JobCatagory';
 
 const Home = () => {
+    const allData = useLoaderData()
+    // console.log(allData);
 
    const [companies, setCompanies] = useState ([]);
-   const [visible, setVisible] = useState(4);
+   const [visible, setVisible] = useState(2);
 
    const showMoreItems = () => {
-        setVisible((prevValue) => prevValue + 4);
+        setVisible((prevValue) => prevValue + 2);
    }
 
    useEffect(() => {
@@ -41,28 +43,16 @@ const Home = () => {
                 <h1>Job catagory list</h1>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='acme'>
-                    {/* <JobCatagory></JobCatagory> */}
-                    <div className='acme-single'>
-                        <div> <img src="https://i.ibb.co/4f537Y0/accounts-1.png" alt="image" /></div>
-                        <h2>Account & Finance</h2>
-                        <p>300+ Jobs Available</p>
+                {
+                    allData.map(singleData =>                    
+                    <div className='acme-single'key={singleData.id}>
+                        <div> <img src={singleData.company_image} alt="image" /></div>
+                        <h2>{singleData.job_title}</h2>
+                        <h4>{singleData.details}</h4>
                     </div>
-                    <div className='acme-single'>
-                        <div> <img src="https://i.ibb.co/fYJmt0M/business-1.png" alt="image" /></div>
-                        <h2>Creative Design</h2>
-                        <p>100+ Jobs Available</p>
-                    </div>
-                    <div className='acme-single'>
-                        <div> <img src="https://i.ibb.co/44n6tz0/social-media-1.png" alt="image" /></div>
-                        <h2>Marketing & Sales</h2>
-                        <p>150+ Jobs Available</p>
-                    </div>
-                    <div className='acme-single'>
-                        <div> <img src="https://i.ibb.co/RgYcsR6/chip-1.png" alt="image" /></div>
-                        <h2>Engineering Job</h2>
-                        <p>220+ Jobs Available</p>
-                    </div>
-                </div>
+                    )
+                     
+                } </div> 
             </div>
 
             {/* Featured job ------------------------------  */}
@@ -79,7 +69,7 @@ const Home = () => {
                             ></FeaturedJobs>)
                         }
                     </div>
-                    <div className='see-all-btn-div'><button onClick={showMoreItems} className='main-btn see-all-btn'>See All</button></div>
+                    <div className='see-all-btn-div'><button onClick={showMoreItems} className='main-btn see-all-btn'>See More</button></div>
                 </div>
             </section>
         </>

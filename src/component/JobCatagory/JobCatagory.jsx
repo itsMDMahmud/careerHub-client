@@ -4,21 +4,22 @@ import { useLoaderData } from 'react-router-dom';
 
 const JobCatagory = () => {
 
-    const jobCatagories = useLoaderData()
-    console.log(jobCatagories);
+    // const allData = useLoaderData()
+    console.log(allData);
     return (
         <>            
              <div>
              {
-                jobCatagories.map(jobCatagory => <div className='acme-single'
-                    key={jobCatagory.id}
-                    // company={jobCatagory.company}
-                >
-                <div> <img src="../../../public/Icons/accounts 1.png" alt="image" />
+                allData.map(singleData =>  
+                <div className='acme'>
+                    <div className='acme-single' key={singleData.id} >
+                    <div> <img src={singleData.company_image} alt="image" /></div>
+                    <h2>{singleData.job_title}</h2>
+                    <p>300+ Jobs Available</p>
+                    </div>
                 </div>
-                <h2>{jobCatagory}</h2>
-                <p>300+ Jobs Available</p>
-                </div>)
+
+                )
             }
              </div>
         </>

@@ -1,34 +1,26 @@
 [
-    {
-      "company": {
-        "id": "IT001",
-        "company_image": "https://i.ibb.co/C99GtF9/sony-unlocks-surprising-advertising-wins-with-segmentation-png-logo-6.png",
-        "job_title": "Account & Finance",
-        "details": "300+ Jobs Available"
-      }
-    },
-    {
-      "company": {
-        "id": "IT001",
-        "company_image": "https://i.ibb.co/C99GtF9/sony-unlocks-surprising-advertising-wins-with-segmentation-png-logo-6.png",
-        "job_title": "Creative Design",
-        "details": "100+ Jobs Available"
-      }
-    },
-    {
-      "company": {
-        "id": "IT001",
-        "company_image": "https://i.ibb.co/C99GtF9/sony-unlocks-surprising-advertising-wins-with-segmentation-png-logo-6.png",
-        "job_title": "Marketing & Sales",
-        "details": "150+ Jobs Available"
-      }
-    },
-    {
-      "company": {
-        "id": "IT001",
-        "company_image": "https://i.ibb.co/C99GtF9/sony-unlocks-surprising-advertising-wins-with-segmentation-png-logo-6.png",
-        "job_title": "Marketing & Sales",
-        "details": "224+ Jobs Available"
-      }
-    }
+  {
+    "id": "IT001",
+    "company_image": "https://i.ibb.co/4f537Y0/accounts-1.png",
+    "job_title": "Account & Finance",
+    "details": "300+ Jobs Available"
+  },
+  {
+    "id": "IT001",
+    "company_image": "https://i.ibb.co/fYJmt0M/business-1.png",
+    "job_title": "Creative Design",
+    "details": "100+ Jobs Available"
+  },
+  {
+    "id": "IT001",
+    "company_image": "https://i.ibb.co/44n6tz0/social-media-1.png",
+    "job_title": "Marketing & Sales",
+    "details": "150+ Jobs Available"
+  },
+  {
+    "id": "IT001",
+    "company_image": "https://i.ibb.co/RgYcsR6/chip-1.png",
+    "job_title": "Engineering Job",
+    "details": "224+ Jobs Available"
+  }
 ]

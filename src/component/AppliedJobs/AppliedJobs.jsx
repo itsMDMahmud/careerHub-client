@@ -20,8 +20,9 @@ const AppliedJobs = () => {
     //     localStorage.setItem('job-details', JSON.stringify(searchObject));
     //     console.log(id);
     // }
+    // console.log(applieds);
+
     
-    console.log(applieds);
     return (
         <>
             <div className='header-design-div'><HeaderDesign></HeaderDesign></div>

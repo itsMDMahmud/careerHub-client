@@ -9,3 +9,9 @@
     width: 240px;
     height: 200px;
 }
+.acme{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;    
+    
+}
